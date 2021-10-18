@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 2347, 255);
+    font-family: "Ephesis",sans-serif;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes{
+    background-color: rgb(219, 217, 217);
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.notes .tools{
+    background-color: rgb(25, 168, 173);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.notes .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+.notes .main{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.notes textarea {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: inherit;
+}
+.notes .hidden {
+    display: block;
+}
